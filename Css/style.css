@@ -144,3 +144,75 @@ header nav.middle ul {
   border-radius: 2px;
   font-weight: 700;
 }
+#Home section.wrapper #spotlight{
+  padding: 60px 50px 60px 0px;
+  
+}
+#Home section.wrapper #spotlight div.left{
+
+}
+#Home section.wrapper #spotlight div.left div.top{
+
+}
+#Home section.wrapper #spotlight div.left div.top h1{
+ font-size: 94px;
+ width: 378px;
+}
+#Home section.wrapper #spotlight div.left div.top div.details {
+display: flex; 
+align-items: flex-start; 
+margin-top: 30px;
+}
+#Home section.wrapper #spotlight div.left div.top div.details span {
+
+}
+#Home section.wrapper #spotlight div.left div.top div.details p {
+width: 380px;
+margin-left: 10px;
+}
+#Home section.wrapper #spotlight div.left div.top div.buttons {
+display: flex; 
+margin-top: 50px; 
+}
+#Home section.wrapper #spotlight div.left div.top div.buttons a {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 16px 21px;
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 14px;  
+}
+#Home section.wrapper #spotlight div.left div.top div.buttons a.fill {
+  background: #8873EF;
+  padding: 16px 21px;
+  border-radius: 13px;
+  color: #fff;   
+}
+#Home section.wrapper #spotlight div.left div.top div.buttons a:first-child {
+  margin-left: 0px;  
+}
+#Home section.wrapper #spotlight div.left div.top div.buttons a span {
+width: 20px;
+display: block;
+margin-left: 10px;
+}
+#Home section.wrapper #spotlight div.left div.top div.buttons a span img {
+width: 100%;
+display: block;
+}
+#Home section.wrapper #spotlight div.left div.bottom {
+
+}
+#Home section.wrapper #spotlight div.left div.bottom ul {
+
+}
+#Home section.wrapper #spotlight div.left div.bottom ul li {
+
+}
+#Home section.wrapper #spotlight div.left div.bottom ul li a{
+
+}
+#Home section.wrapper #spotlight div.left div.bottom ul li a img{
+
+}
