@@ -1,59 +1,146 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    background: transparent;
-    font-weight: normal;
-    text-decoration: none;
-    outline: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('../Fonts/Poppins-Regular.woff2') format('woff2'),
-        url('../Fonts/Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #181818;
+  font-family: "Inter";
+}
+body {
+  overflow-x: hidden;
+  min-width: 320px;
+  font-family: "Inter";
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../Fonts/Poppins-Medium.woff2') format('woff2'),
-        url('../Fonts/Poppins-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Inter';
+  src: url('../Fonts/Inter-Light.woff2') format('woff2'),
+      url('../Fonts/Inter-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../Fonts/Poppins-Light.woff2') format('woff2'),
-        url('../Fonts/Poppins-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Inter';
+  src: url('../Fonts/Inter-Medium.woff2') format('woff2'),
+      url('../Font/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../Fonts/Poppins-Bold.woff2') format('woff2'),
-        url('../Fonts/Poppins-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Inter';
+  src: url('../Fonts/Inter-Regular.woff2') format('woff2'),
+      url('../Fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Poppins';
-    src: url('../Fonts/Poppins-SemiBold.woff2') format('woff2'),
-        url('../Fonts/Poppins-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Inter';
+  src: url('../Fonts/Inter-Bold.woff2') format('woff2'),
+      url('../Fonts/Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../Fonts/Inter-ExtraBold.woff2') format('woff2'),
+      url('../Fonts/Inter-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../Fonts/Inter-SemiBold.woff2') format('woff2'),
+      url('../Fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+#Home {
+}
+#Home section.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+#Home section.wrapper header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Home section.wrapper header h1.left {
+  width: 100px;
+}
+#Home section.wrapper header h1.left a {
+  width: 100%;
+  display: block;
+}
+#Home section.wrapper header h1.left a img {
+  width: 100%;
+  display: block;
+}
+#Home section.wrapper header nav.middle {
+}
+header nav.middle ul {
+  display: flex;
+}
+#Home section.wrapper header nav.middle ul li {
+  margin-right: 20px;
+  
+}
+#Home section.wrapper header nav.middle ul li:last-child {
+  margin-right: 0px;
+}
+#Home section.wrapper header nav.middle ul li a {
+  color: #181818;
+  font-size: 18px;
+  font-weight: 500;
+}
+#Home section.wrapper header nav.middle ul li a:hover {
+  border-bottom: 2px solid #181818;
+  font-weight: 600; 
+}
+#Home section.wrapper header div.right {
+}
+#Home section.wrapper header div.right ul {
+  display: flex;
+}
+#Home section.wrapper header div.right ul li {
+  margin-right: 20px;
+}
+#Home section.wrapper header div.right ul li:last-child {
+  margin-right: 0px;
+}
+#Home section.wrapper header div.right ul li a{
+  font-weight: 700;
+}
+#Home section.wrapper header div.right ul li a.button{
+  padding: 12px 31px;
+  border: 1px solid #181818;
+  border-radius: 2px;
+  font-weight: 700;
+}
