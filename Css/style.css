@@ -146,6 +146,7 @@ header nav.middle ul {
 }
 #Home section.wrapper #spotlight{
   padding: 60px 50px 60px 0px;
+  display: flex;
   
 }
 #Home section.wrapper #spotlight div.left{
