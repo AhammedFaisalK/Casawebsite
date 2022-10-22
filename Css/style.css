@@ -300,7 +300,7 @@ header nav.middle ul {
 #Service section.wrapper section.content div.left div.top h1 {
   font-size: 64px;
   width: 378px;
-  font-weight: 500;
+  font-weight: 600;
 }
 #Service section.wrapper section.content div.left div.top div.details {
   display: flex;
@@ -309,7 +309,7 @@ header nav.middle ul {
   font-size: 18px;
 }
 #Service section.wrapper section.content div.left div.top div.details span {
-  color: #645729; 
+  color: #645729;
 }
 #Service section.wrapper section.content div.left div.top div.details p {
   width: 472px;
@@ -317,16 +317,66 @@ header nav.middle ul {
   color: #645729;
 }
 #Service section.wrapper section.content div.left div.bottom {
-margin-top: 190px;  
+  margin-top: 190px;
 }
 #Service section.wrapper section.content div.left div.bottom div.service-seal {
-width: 140px;  
+  width: 140px;
 }
-#Service section.wrapper section.content div.left div.bottom div.service-seal img {
-width: 100%;
-height: 100%;
-display: block;  
+#Service
+  section.wrapper
+  section.content
+  div.left
+  div.bottom
+  div.service-seal
+  img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 #Service section.wrapper section.content div.right {
   width: 48%;
+}
+#Service section.wrapper section.content div.right ul {
+}
+#Service section.wrapper section.content div.right ul li {
+  border-top: 1px solid #181818;
+  margin-bottom: 10px;
+  padding: 13px 0;
+}
+#Service section.wrapper section.content div.right ul li div.item_title {
+  display: flex;
+  align-items: flex-start;
+}
+#Service section.wrapper section.content div.right ul li div.item_title h4 {
+  font-size: 26px;
+  font-weight: 600;
+}
+#Service section.wrapper section.content div.right ul li div.item_title h2 {
+  width: 354px;
+  font-size: 41px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+#Service section.wrapper section.content div.right ul li div.click {
+  width: 47%;
+  margin: 10px auto 0;
+}
+#Service section.wrapper section.content div.right ul li div.click a {
+  width: 100%;
+  display: block;
+  font-weight: 600;
+}
+#Service section.wrapper section.content div.right ul li div.arrow {
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+}
+#Service section.wrapper section.content div.right ul li div.arrow span {
+  text-align: right;
+  display: inline-block;
+  width: 65px;
+}
+#Service section.wrapper section.content div.right ul li div.arrow span img {
+  width: 100%;
+  display: inline-block;
 }
