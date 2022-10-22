@@ -380,16 +380,157 @@ header nav.middle ul {
   width: 100%;
   display: inline-block;
 }
-
+#Experience {
+  padding: 80px 0;
+}
 #Experience section.wrapper {
-  
 }
 #Experience section.wrapper section.content {
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #Experience section.wrapper section.content div.left {
-  
+  width: 48%;
+}
+#Experience section.wrapper section.content div.left div.top {
+}
+#Experience section.wrapper section.content div.left div.top span.text-rotate {
+  display: inline-block;
+  color: #8873ef;
+  transform: rotate(-39deg);
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+#Experience section.wrapper section.content div.left div.top h1 {
+  font-size: 64px;
+  width: 378px;
+  font-weight: 600;
+  line-height: 1.8em;
+}
+#Experience section.wrapper section.content div.left div.top div.details {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  font-size: 18px;
+}
+#Experience section.wrapper section.content div.left div.top div.details span {
+  color: #645729;
+}
+#Experience section.wrapper section.content div.left div.top div.details p {
+  width: 472px;
+  margin-left: 10px;
+  color: #645729;
+}
+#Experience section.wrapper section.content div.left div.bottom {
+  margin-top: 70px;
+}
+#Experience section.wrapper section.content div.left div.bottom h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+#Experience section.wrapper section.content div.left div.bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#Experience section.wrapper section.content div.left div.bottom ul li {
+  width: 26%;
+  margin-bottom: 15px;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.left
+  div.bottom
+  ul
+  li
+  div.skill-icon {
+  width: 72px;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.left
+  div.bottom
+  ul
+  li
+  div.skill-icon
+  img {
+  width: 100%;
+  display: block;
+}
+#Experience section.wrapper section.content div.left div.bottom ul li h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 25px;
 }
 #Experience section.wrapper section.content div.right {
-  
+  width: 48%;
+}
+#Experience section.wrapper section.content div.right div.top {
+  margin-bottom: 70px;
+}
+#Experience section.wrapper section.content div.right div.top h2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#Experience section.wrapper section.content div.right div.bottom {
+}
+#Experience section.wrapper section.content div.right div.bottom ul {
+}
+#Experience section.wrapper section.content div.right div.bottom ul li {
+  border-top: 1px solid #181818;
+  padding: 20px 0;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.right
+  div.bottom
+  ul
+  li
+  div.title {
+  display: flex;
+  align-items: center;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.right
+  div.bottom
+  ul
+  li
+  div.title
+  h4 {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.right
+  div.bottom
+  ul
+  li
+  div.title
+  h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.right
+  div.bottom
+  ul
+  li
+  span.company {
+  display: block;
+  width: 62%;
+  margin: 0 auto;
 }
