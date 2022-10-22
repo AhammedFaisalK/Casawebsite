@@ -26,6 +26,10 @@ body {
   min-width: 320px;
   font-family: "Inter";
 }
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
 :root {
   --main-bg-color: #fcda69;
   --main-heading-color: #18212c;
@@ -163,6 +167,7 @@ header nav.middle ul {
   font-size: 15px;
   font-weight: 500;
 }
+
 #Home section.wrapper #spotlight div.left div.top h1 {
   font-size: 94px;
   width: 378px;
@@ -246,7 +251,7 @@ header nav.middle ul {
 #Home section.wrapper #spotlight div.right div.quote blockquote {
   width: 211px;
   font-weight: 600;
-  font-size: 20px
+  font-size: 20px;
 }
 #Home section.wrapper #spotlight div.right div.Hero-bg {
   height: 690px;
@@ -268,4 +273,60 @@ header nav.middle ul {
 #Home section.wrapper #spotlight div.right div.play img {
   width: 100%;
   display: block;
+}
+#Service {
+  background: var(--main-bg-color);
+  padding: 80px 0;
+}
+#Service section.wrapper {
+}
+#Service section.wrapper section.content {
+  display: flex;
+  justify-content: space-between;
+}
+#Service section.wrapper section.content div.left {
+  width: 48%;
+}
+#Service section.wrapper section.content div.left div.top {
+}
+#Service section.wrapper section.content div.left div.top span.text-rotate {
+  display: inline-block;
+  color: #8873ef;
+  transform: rotate(-39deg);
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+#Service section.wrapper section.content div.left div.top h1 {
+  font-size: 64px;
+  width: 378px;
+  font-weight: 500;
+}
+#Service section.wrapper section.content div.left div.top div.details {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  font-size: 18px;
+}
+#Service section.wrapper section.content div.left div.top div.details span {
+  color: #645729; 
+}
+#Service section.wrapper section.content div.left div.top div.details p {
+  width: 472px;
+  margin-left: 10px;
+  color: #645729;
+}
+#Service section.wrapper section.content div.left div.bottom {
+margin-top: 190px;  
+}
+#Service section.wrapper section.content div.left div.bottom div.service-seal {
+width: 140px;  
+}
+#Service section.wrapper section.content div.left div.bottom div.service-seal img {
+width: 100%;
+height: 100%;
+display: block;  
+}
+#Service section.wrapper section.content div.right {
+  width: 48%;
 }
