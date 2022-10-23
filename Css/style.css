@@ -567,6 +567,7 @@ header nav.middle ul {
   font-size: 64px;
   font-weight: 600;
   width: 33%;
+  line-height: 1.6em;
 }
 #Projects section.wrapper ul {
   display: flex;
@@ -581,6 +582,9 @@ header nav.middle ul {
 #Projects section.wrapper ul li:first-child {
   top: 80px;
 }
+#Projects section.wrapper ul li:last-child {
+  top: -190px;
+}
 #Projects section.wrapper ul li div.project_title {
   display: flex;
   justify-content: space-between;
@@ -589,6 +593,7 @@ header nav.middle ul {
   font-size: 26px;
   width: 63%;
   font-weight: 600;
+  line-height: 1.5em;
 }
 #Projects section.wrapper ul li:nth-child(2) div.project_title h3 {
   width: 53%;
