@@ -520,8 +520,8 @@ header nav.middle ul {
   li:first-child
   div.title
   h4 {
-    margin-right: 14px;
-  }
+  margin-right: 14px;
+}
 #Experience
   section.wrapper
   section.content
@@ -559,4 +559,70 @@ header nav.middle ul {
 }
 #Projects {
   padding: 80px 0;
+  background: var(--main-bg-color);
+}
+#Projects section.wrapper {
+}
+#Projects section.wrapper h1 {
+  font-size: 64px;
+  font-weight: 600;
+  width: 33%;
+}
+#Projects section.wrapper ul {
+  display: flex;
+  justify-content: space-between;
+}
+#Projects section.wrapper ul li {
+  width: 30%;
+  border-top: 1px solid #181818;
+  position: relative;
+  padding: 20px 0;
+}
+#Projects section.wrapper ul li:first-child {
+  top: 80px;
+}
+#Projects section.wrapper ul li div.project_title {
+  display: flex;
+  justify-content: space-between;
+}
+#Projects section.wrapper ul li div.project_title h3 {
+  font-size: 26px;
+  width: 63%;
+  font-weight: 600;
+}
+#Projects section.wrapper ul li:nth-child(2) div.project_title h3 {
+  width: 53%;
+}
+#Projects section.wrapper ul li div.project_title span {
+  width: 65px;
+  display: inline-block;
+}
+#Projects section.wrapper ul li div.project_title span img {
+  width: 100%;
+  display: inline-block;
+}
+#Projects section.wrapper ul li p.project_type {
+  font-weight: 600;
+  font-size: 14px;
+}
+#Projects section.wrapper ul li div.project_design {
+  width: 95%;
+  margin-top: 20px;
+}
+#Projects section.wrapper ul li div.project_design img {
+  width: 100%;
+  display: block;
+}
+#Projects section.wrapper div.service-seal {
+  text-align: right;
+}
+#Projects section.wrapper div.service-seal span {
+  text-align: right;
+  width: 140px;
+  display: inline-block;
+}
+#Projects section.wrapper div.service-seal img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
