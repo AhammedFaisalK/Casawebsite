@@ -170,7 +170,8 @@ header nav.middle ul {
 
 #Home section.wrapper #spotlight div.left div.top h1 {
   font-size: 94px;
-  width: 378px;
+  width: 387px;
+  font-weight: 600;
 }
 #Home section.wrapper #spotlight div.left div.top div.details {
   display: flex;
@@ -184,6 +185,7 @@ header nav.middle ul {
 #Home section.wrapper #spotlight div.left div.top div.details p {
   width: 428px;
   margin-left: 10px;
+  font-weight: 500;
 }
 #Home section.wrapper #spotlight div.left div.top div.buttons {
   display: flex;
@@ -195,7 +197,7 @@ header nav.middle ul {
   margin-left: 10px;
   padding: 16px 21px;
   border-radius: 13px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
 }
 #Home section.wrapper #spotlight div.left div.top div.buttons a.fill {
@@ -401,8 +403,7 @@ header nav.middle ul {
   transform: rotate(-39deg);
   font-size: 15px;
   font-weight: 500;
-  margin-top: 20px;
-  margin-bottom: 6px;
+  margin: 20px 0 6px -17px;
 }
 #Experience section.wrapper section.content div.left div.top h1 {
   font-size: 64px;
@@ -495,7 +496,7 @@ header nav.middle ul {
   li
   div.title {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 #Experience
   section.wrapper
@@ -506,10 +507,21 @@ header nav.middle ul {
   li
   div.title
   h4 {
-  margin-right: 20px;
+  margin-right: 30px;
   font-size: 18px;
   font-weight: 600;
 }
+#Experience
+  section.wrapper
+  section.content
+  div.right
+  div.bottom
+  ul
+  li:first-child
+  div.title
+  h4 {
+    margin-right: 14px;
+  }
 #Experience
   section.wrapper
   section.content
@@ -531,6 +543,20 @@ header nav.middle ul {
   li
   span.company {
   display: block;
-  width: 62%;
+  width: 60%;
   margin: 0 auto;
+  color: #838383;
+}
+#Experience
+  section.wrapper
+  section.content
+  div.right
+  div.bottom
+  ul
+  li
+  span.company1 {
+  width: 54%;
+}
+#Projects {
+  padding: 80px 0;
 }
