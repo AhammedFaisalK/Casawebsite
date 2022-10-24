@@ -555,7 +555,7 @@ header nav.middle ul {
   ul
   li
   span.company1 {
-  width: 54%;
+  width: 59%;
 }
 #Projects {
   padding: 80px 0;
@@ -794,65 +794,131 @@ header nav.middle ul {
   display: block;
 }
 #Contact {
-  
+  padding: 80px 0;
+  background: var(--main-bg-color);
 }
 #Contact section.wrapper {
-
 }
 #Contact section.wrapper section.contact_details {
-
+  display: flex;
+  padding: 0 0 25px 0px;
 }
-#Contact section.wrapper section.contact_details  div.left {
-
+#Contact section.wrapper section.contact_details div.left {
+  width: 48%;
 }
-#Contact section.wrapper section.contact_details  div.left span.text-rotate  {
-
+#Contact section.wrapper section.contact_details div.left span.text-rotate {
+  display: inline-block;
+  color: #8873ef;
+  transform: rotate(-39deg);
+  font-size: 15px;
+  font-weight: 500;
+  margin: 20px 0 6px -17px;
 }
-#Contact section.wrapper section.contact_details  div.left h1 {
-
+#Contact section.wrapper section.contact_details div.left h1 {
+  font-size: 64px;
+  font-weight: 600;
+  width: 63%;
+  line-height: 1.3em;
+  text-transform: capitalize;
 }
-#Contact section.wrapper section.contact_details  div.left ul {
-  
+#Contact section.wrapper section.contact_details div.left ul {
+  margin-top: 39px;
 }
-#Contact section.wrapper section.contact_details  div.left ul li {
-
+#Contact section.wrapper section.contact_details div.left ul li {
+  border-top: 1px solid #181818;
+  display: flex;
+  width: 59%;
+  padding: 20px 0;
 }
-#Contact section.wrapper section.contact_details  div.left ul li div.contact-icon  {
-
+#Contact
+  section.wrapper
+  section.contact_details
+  div.left
+  ul
+  li
+  div.contact-icon {
+  width: 68px;
 }
-#Contact section.wrapper section.contact_details  div.left ul li div.contact-icon img {
-
+#Contact
+  section.wrapper
+  section.contact_details
+  div.left
+  ul
+  li
+  div.contact-icon
+  img {
+  width: 100%;
+  display: block;
 }
-#Contact section.wrapper section.contact_details  div.left ul li div.detail {
-
+#Contact section.wrapper section.contact_details div.left ul li div.detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
 }
-#Contact section.wrapper section.contact_details  div.left ul li div.detail small {
-
+#Contact
+  section.wrapper
+  section.contact_details
+  div.left
+  ul
+  li
+  div.detail
+  small {
+  color: #b3ae9b;
+  font-weight: 600;
 }
-#Contact section.wrapper section.contact_details  div.left ul li div.detail a {
-
+#Contact section.wrapper section.contact_details div.left ul li div.detail a {
+  display: block;
+  font-weight: 700;
 }
-#Contact section.wrapper section.contact_details  div.left ul li div.detail h5 {
-
+#Contact section.wrapper section.contact_details div.left ul li div.detail h5 {
+  font-weight: 700;
+  width: 74%;
+  line-height: 1.8em;
 }
-#Contact section.wrapper section.contact_details  div.right {
-
+#Contact section.wrapper section.contact_details div.right {
+  width: 36%;
+  border: 1px solid #181818;
+  border-radius: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#Contact section.wrapper section.contact_details  div.right div.hand-icon {
-
+#Contact section.wrapper section.contact_details div.right div.hand-icon {
+  display: flex;
+  padding: 62px 0 0;
 }
-#Contact section.wrapper section.contact_details  div.right div.hand-icon img{
-
+#Contact section.wrapper section.contact_details div.right div.hand-icon img {
 }
-#Contact section.wrapper section.contact_details  div.right div.hand-icon h3{
-
+#Contact section.wrapper section.contact_details div.right div.hand-icon h3 {
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 15px;
 }
-#Contact section.wrapper section.contact_details  div.right span{
-
+#Contact section.wrapper section.contact_details div.right span {
+  display: inline-block;
+  width: 122px;
 }
-#Contact section.wrapper section.contact_details  div.right span img{
-
+#Contact section.wrapper section.contact_details div.right span img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-#Contact section.wrapper section.contact_details  div.right hr.line {
-  
+#Contact section.wrapper hr.line {
+  border: 0.5px solid #181818;
+  width: 91%;
+}
+#Contact
+  section.wrapper
+  section.contact_details
+  div.right
+  div.horizontal-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #181818;
+  padding: 0px 0px 20px;
 }
