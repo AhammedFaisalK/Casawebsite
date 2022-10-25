@@ -1431,7 +1431,8 @@ footer section.wrapper div.bottom div.terms ul li a {
     font-size: 16px;
   }
   #Experience section.wrapper section.content div.left div.bottom h3 {
-    font-size: 27px;
+    font-size: 32px;
+    text-align: center;
   }
   #Experience
     section.wrapper
@@ -1471,6 +1472,181 @@ footer section.wrapper div.bottom div.terms ul li a {
   }
 }
 @media all and (max-width: 768px) {
+  #Testimonial section.wrapper div.top-portion div.middle div.details p {
+    width: 243px;
+  }
+  #Testimonial
+    section.wrapper
+    div.top-portion
+    div.right
+    div.icon-container
+    span {
+    width: 100%;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    font-size: 39px;
+  }
+  #Contact section.wrapper section.contact_details div.left ul li {
+    width: 93%;
+    padding: 20px 0;
+  }
+  #Contact section.wrapper section.contact_details div.right span {
+    width: 80px;
+  }
+  footer section.wrapper div.top div.description p {
+    font-size: 14px;
+  }
+  #Testimonial
+    section.wrapper
+    div.top-portion
+    div.right
+    div.icon-container
+    span {
+    display: none;
+  }
+  #Projects section.wrapper h1 {
+    font-size: 40px;
+  }
+  #Experience section.wrapper section.content {
+    display: block;
+  }
+  #Experience section.wrapper section.content div.right {
+    width: 100%;
+    margin-top: 35px;
+  }
+  #Experience section.wrapper section.content div.left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #Experience section.wrapper section.content div.left div.top h1 {
+    font-size: 45px;
+    line-height: 1.5em;
+    width: 40%;
+    margin: 0 auto;
+  }
+  #Experience section.wrapper section.content div.left div.top div.details p {
+    width: 100%;
+    font-size: 20px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    div.title
+    h2 {
+    font-size: 25px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    div.title
+    h4 {
+    font-size: 18px;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li h4 {
+    font-size: 17px;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li {
+    margin-bottom: 32px;
+    margin: 10px auto;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.left
+    div.bottom
+    ul
+    li
+    div.skill-icon {
+    width: 65px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 54%;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.left
+    div.top
+    span.text-rotate {
+    margin: 20px 0 6px 135px;
+  }
+  #Experience section.wrapper section.content div.right div.top h2 {
+    text-align: center;
+  }
+  #Service section.wrapper section.content {
+    flex-wrap: wrap;
+  }
+  #Service section.wrapper section.content div.left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #Service section.wrapper section.content div.right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #Service section.wrapper section.content div.right ul li div.click {
+    width: 28%;
+  }
+  #Service section.wrapper section.content div.left div.bottom {
+    margin-top: 50px;
+  }
+  #Service
+    section.wrapper
+    section.content
+    div.left
+    div.bottom
+    div.service-seal {
+    width: 20%;
+    margin: 0 auto;
+  }
+  #Service section.wrapper section.content div.left div.top h1 {
+    width: 42%;
+    margin: 0 auto;
+  }
+  #Service section.wrapper section.content div.left div.top span.text-rotate {
+    margin-left: 131px;
+  }
+  header nav.middle ul {
+    display: flex;
+    display: none;
+  }
+  #Home section.wrapper #spotlight div.left div.top h1 {
+    font-size: 41px;
+    width: 75%;
+  }
+  #Home section.wrapper #spotlight div.right div.quote {
+    display: none;
+  }
+  #Home section.wrapper #spotlight {
+    padding: 60px 0px;
+  }
+  #Home section.wrapper #spotlight div.right div.Hero-bg {
+    height: 537px;
+  }
+  #Home section.wrapper #spotlight div.right div.play {
+    left: 45%;
+  }
+  #Home section.wrapper #spotlight div.left div.top div.buttons a span {
+    margin-left: 6px;
+  }
+  #Home section.wrapper #spotlight div.left div.top span.text-rotate {
+    margin-left: -15px;
+  }
 }
 @media all and (max-width: 640px) {
 }
