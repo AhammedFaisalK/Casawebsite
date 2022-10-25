@@ -922,3 +922,47 @@ header nav.middle ul {
   border-bottom: 1px solid #181818;
   padding: 0px 0px 20px;
 }
+footer {
+  padding: 80px 0;
+}
+footer section.wrapper {
+}
+footer section.wrapper div.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer section.wrapper div.top div.description {
+}
+footer section.wrapper div.top div.description div.footer-logo {
+}
+footer section.wrapper div.top div.description div.footer-logo img {
+}
+footer section.wrapper div.top div.description p {
+}
+footer section.wrapper div.top div.useful-links {
+}
+footer section.wrapper div.top div.useful-links div.link1-container {
+}
+footer section.wrapper div.top div.useful-links div.link1-container h5 {
+}
+footer section.wrapper div.top div.useful-links div.link1-container ul {
+}
+footer section.wrapper div.top div.useful-links div.link1-container ul li {
+}
+footer section.wrapper div.top div.useful-links div.link1-container ul li a {
+}
+footer section.wrapper div.bottom {
+}
+footer section.wrapper div.bottom div.copyright {
+}
+footer section.wrapper div.bottom div.copyright p {
+}
+footer section.wrapper div.bottom div.terms {
+}
+footer section.wrapper div.bottom div.terms ul {
+}
+footer section.wrapper div.bottom div.terms ul li {
+}
+footer section.wrapper div.bottom div.terms ul li a {
+}
