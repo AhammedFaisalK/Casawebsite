@@ -1139,9 +1139,50 @@ footer section.wrapper div.bottom div.terms ul li a {
     span.company1 {
     width: 42%;
   }
-  
-#Experience section.wrapper section.content div.right div.bottom ul li span.company {
-  width: 43%;
+
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 43%;
+  }
+  #Testimonial section.wrapper div.top-portion div.left h1 {
+    font-size: 50px;
+    width: 252px;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    width: 90%;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle {
+    padding: 15px 0 10px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle p.Review {
+    width: 92%;
+    font-size: 20px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle p.Review b {
+    font-weight: 500;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle p.Review small {
+    font-size: 18px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle h6 {
+    width: 93%;
+    margin: 11px auto 0;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle span {
+    width: 94%;
+  }
+  footer section.wrapper div.top div.useful-links {
+    width: 56%;
+  }
+  footer section.wrapper div.top div.useful-links div.link3 li:nth-child(3) div.social-icons ul li {
+    width: 30px;
+  }
 }
 @media all and (max-width: 1080px) {
 }
