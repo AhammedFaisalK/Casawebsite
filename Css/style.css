@@ -935,24 +935,55 @@ footer section.wrapper div.top {
 footer section.wrapper div.top div.description {
 }
 footer section.wrapper div.top div.description div.footer-logo {
+  width: 20%;
 }
-footer section.wrapper div.top div.description div.footer-logo img {
+footer section.wrapper div.top div.description div.footer-logo h1 {
+  width: 110px;
+}
+footer section.wrapper div.top div.description div.footer-logo h1 a {
+  width: 100%;
+  display: inline-block;
+}
+footer section.wrapper div.top div.description div.footer-logo h1 a img {
+  width: 100%;
+  display: inline-block;
 }
 footer section.wrapper div.top div.description p {
+  width: 362px;
+  color: #787878;
+  margin-top: 4px;
+  font-weight: 500;
 }
 footer section.wrapper div.top div.useful-links {
+  display: flex;
+  justify-content: space-between;
+  width: 43%;
 }
 footer section.wrapper div.top div.useful-links div.link1-container {
 }
 footer section.wrapper div.top div.useful-links div.link1-container h5 {
+  font-size: 21px;
+  font-weight: 600;
 }
 footer section.wrapper div.top div.useful-links div.link1-container ul {
+  margin-top: 20px;
 }
 footer section.wrapper div.top div.useful-links div.link1-container ul li {
+  margin-top: 6px;
 }
 footer section.wrapper div.top div.useful-links div.link1-container ul li a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #292929;
+}
+footer section.wrapper div.top div.useful-links div.link3 li:nth-child(2) {
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
 }
 footer section.wrapper div.bottom {
+  display: flex;
+  justify-content: space-between;
 }
 footer section.wrapper div.bottom div.copyright {
 }
