@@ -981,19 +981,119 @@ footer section.wrapper div.top div.useful-links div.link3 li:nth-child(2) {
   align-items: center;
   margin-top: 9px;
 }
+footer
+  section.wrapper
+  div.top
+  div.useful-links
+  div.link3
+  li:nth-child(3)
+  div.social-icons
+  ul
+  li {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  height: 10px;
+  width: 32px;
+}
+footer
+  section.wrapper
+  div.top
+  div.useful-links
+  div.link3
+  li:nth-child(3)
+  div.social-icons
+  ul
+  li
+  a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  display: block;
+}
+footer
+  section.wrapper
+  div.top
+  div.useful-links
+  div.link3
+  li:nth-child(3)
+  div.social-icons
+  ul
+  li
+  a
+  img {
+  width: 100%;
+  display: block;
+}
+footer section.wrapper div.top div.useful-links div.link3 div.social-icons {
+}
+footer section.wrapper div.top div.useful-links div.link3 div.social-icons ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer
+  section.wrapper
+  div.top
+  div.useful-links
+  div.link3
+  div.social-icons
+  ul
+  li {
+}
+footer
+  section.wrapper
+  div.top
+  div.useful-links
+  div.link3
+  div.social-icons
+  ul
+  li
+  a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+}
+footer
+  section.wrapper
+  div.top
+  div.useful-links
+  div.link3
+  div.social-icons
+  ul
+  li
+  a
+  img {
+  width: 100%;
+  display: block;
+}
 footer section.wrapper div.bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 46px;
 }
 footer section.wrapper div.bottom div.copyright {
 }
 footer section.wrapper div.bottom div.copyright p {
+  font-weight: 600;
+  font-size: 16px;
 }
 footer section.wrapper div.bottom div.terms {
 }
 footer section.wrapper div.bottom div.terms ul {
+  display: flex;
+  justify-content: space-between;
 }
 footer section.wrapper div.bottom div.terms ul li {
+  margin-right: 10px;
+}
+footer section.wrapper div.bottom div.terms ul li:last-child {
+  margin-right: 0px;
 }
 footer section.wrapper div.bottom div.terms ul li a {
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
 }
