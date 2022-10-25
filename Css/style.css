@@ -1180,11 +1180,78 @@ footer section.wrapper div.bottom div.terms ul li a {
   footer section.wrapper div.top div.useful-links {
     width: 56%;
   }
-  footer section.wrapper div.top div.useful-links div.link3 li:nth-child(3) div.social-icons ul li {
+  footer
+    section.wrapper
+    div.top
+    div.useful-links
+    div.link3
+    li:nth-child(3)
+    div.social-icons
+    ul
+    li {
     width: 30px;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li h4 {
+    font-size: 15px;
+  }
+  #Testimonial
+    section.wrapper
+    div.top-portion
+    div.right
+    div.icon-container
+    span {
+    width: 50%;
+  }
+  #Contact section.wrapper section.contact_details div.right span {
+    width: 110px;
   }
 }
 @media all and (max-width: 1080px) {
+  #Home section.wrapper #spotlight div.left div.top h1 {
+    font-size: 65px;
+  }
+  #Home section.wrapper #spotlight div.right div.play {
+    left: 34%;
+    width: 30%;
+  }
+  #Home section.wrapper #spotlight div.left div.bottom ul li span {
+    font-size: 17px;
+    width: 115px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 38%;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li h4 {
+    font-size: 14px;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    font-size: 60px;
+    width: 91%;
+  }
+  #Contact section.wrapper section.contact_details div.right {
+    width: 52%;
+  }
+  footer section.wrapper div.top div.description p {
+    width: 353px;
+  }
+  footer section.wrapper div.top div.useful-links {
+    width: 58%;
+  }
+  #Testimonial
+    section.wrapper
+    div.top-portion
+    div.right
+    div.icon-container
+    span {
+    width: 60%;
+  }
 }
 @media all and (max-width: 980px) {
 }
