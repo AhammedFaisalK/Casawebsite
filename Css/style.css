@@ -1254,6 +1254,221 @@ footer section.wrapper div.bottom div.terms ul li a {
   }
 }
 @media all and (max-width: 980px) {
+  #Home section.wrapper header h1.left {
+    width: 95px;
+  }
+  #Home section.wrapper header nav.middle ul li a {
+    font-size: 14px;
+  }
+  #Home section.wrapper header div.right ul li {
+    margin-right: 13px;
+  }
+  #Home section.wrapper header div.right ul li a.button {
+    padding: 6px 15px;
+    border-radius: 4px;
+  }
+  #Home section.wrapper #spotlight div.left div.top h1 {
+    font-size: 51px;
+  }
+  #Home section.wrapper #spotlight div.right div.quote blockquote {
+    margin: 0px -104px;
+    font-size: 17px;
+  }
+  #Home section.wrapper #spotlight div.right div.Hero-bg {
+    height: 556px;
+    width: 341px;
+  }
+  #Home section.wrapper #spotlight div.right div.play {
+    left: 39%;
+    width: 31%;
+  }
+  #Home section.wrapper #spotlight div.left div.bottom ul li span {
+    font-size: 15px;
+  }
+  footer section.wrapper div.top div.description p {
+    width: 246px;
+    font-size: 15px;
+  }
+  footer section.wrapper div.top div.useful-links div.link1-container h5 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  footer section.wrapper div.top div.useful-links div.link1-container ul li a {
+    font-size: 12px;
+  }
+  footer
+    section.wrapper
+    div.top
+    div.useful-links
+    div.link3
+    li:nth-child(3)
+    div.social-icons
+    ul
+    li {
+    width: 25px;
+    margin-top: 5px;
+  }
+  footer section.wrapper div.bottom div.terms ul li a {
+    font-size: 14px;
+  }
+  footer section.wrapper div.bottom div.copyright p {
+    font-size: 14px;
+  }
+  footer section.wrapper div.top div.description div.footer-logo h1 {
+    width: 90px;
+  }
+  #Testimonial section.wrapper div.top-portion div.middle div.details p {
+    width: 430px;
+    font-size: 17px;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    font-size: 41px;
+  }
+  #Contact section.wrapper section.contact_details div.right {
+    width: 61%;
+    border-radius: 57%;
+  }
+  #Contact section.wrapper section.contact_details div.right span {
+    width: 90px;
+  }
+  #Contact section.wrapper section.contact_details div.left ul li {
+    width: 89%;
+    padding: 19px 0;
+  }
+  #Testimonial section.wrapper div.top-portion div.left h1 {
+    font-size: 42px;
+  }
+  #Testimonial section.wrapper div.top-portion div.left span.text-rotate {
+    font-size: 13px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle p.Review {
+    width: 92%;
+    font-size: 15px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle p.Review small {
+    font-size: 14px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle h6 {
+    margin: 9px auto 0;
+    font-size: 15px;
+  }
+  #Testimonial
+    section.wrapper
+    div.bottom-portion
+    div.left
+    div.clientpic-container
+    span {
+    width: 100%;
+  }
+  #Testimonial
+    section.wrapper
+    div.bottom-portion
+    div.right
+    div.clientpic-container
+    span {
+    width: 100%;
+  }
+
+  #Projects section.wrapper div.service-seal span {
+    width: 130px;
+  }
+  #Projects section.wrapper h1 {
+    font-size: 45px;
+  }
+  #Projects section.wrapper ul li div.project_title span {
+    width: 55px;
+  }
+  #Projects section.wrapper ul li div.project_title h3 {
+    font-size: 20px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.left
+    div.top
+    span.text-rotate {
+    font-size: 14px;
+  }
+  #Experience section.wrapper section.content div.left div.top h1 {
+    font-size: 45px;
+  }
+  #Experience section.wrapper section.content div.left div.top div.details p {
+    font-size: 17px;
+  }
+  #Experience section.wrapper section.content div.right div.top {
+    margin-bottom: 50px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    div.title
+    h2 {
+    font-size: 20px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 28%;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    div.title
+    h4 {
+    font-size: 16px;
+  }
+  #Experience section.wrapper section.content div.left div.bottom h3 {
+    font-size: 27px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.left
+    div.bottom
+    ul
+    li
+    div.skill-icon {
+    width: 65px;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li {
+    width: 33%;
+    margin-bottom: 32px;
+  }
+  #Service
+    section.wrapper
+    section.content
+    div.left
+    div.bottom
+    div.service-seal {
+    width: 130px;
+  }
+  #Service section.wrapper section.content div.right ul li div.arrow span {
+    width: 55px;
+  }
+  #Service section.wrapper section.content div.left div.top h1 {
+    font-size: 45px;
+    width: 340px;
+  }
+  #Service section.wrapper section.content div.right ul li div.item_title h2 {
+    width: 203px;
+    font-size: 31px;
+  }
+  #Service section.wrapper section.content div.left div.top span.text-rotate {
+    margin-left: -10px;
+  }
 }
 @media all and (max-width: 768px) {
 }
