@@ -1649,8 +1649,193 @@ footer section.wrapper div.bottom div.terms ul li a {
   }
 }
 @media all and (max-width: 640px) {
+  footer section.wrapper div.top {
+    flex-wrap: wrap;
+  }
+  footer section.wrapper div.top div.useful-links {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer section.wrapper div.top div.description p {
+    font-size: 16px;
+  }
+  #Contact section.wrapper section.contact_details {
+    flex-wrap: wrap;
+  }
+  #Contact section.wrapper section.contact_details div.right {
+    display: none;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    width: 58%;
+    margin: 0 auto;
+  }
+  #Contact section.wrapper section.contact_details div.left {
+    width: 100%;
+  }
+  #Contact section.wrapper section.contact_details div.left span.text-rotate {
+    font-size: 16px;
+    margin: 20px 0 6px 78px;
+  }
+  #Testimonial section.wrapper div.top-portion {
+    flex-wrap: wrap;
+  }
+  #Testimonial section.wrapper div.top-portion div.left {
+    width: 45%;
+    margin: 0 auto;
+  }
+  #Testimonial section.wrapper div.top-portion div.middle {
+    width: 58%;
+    margin: 0 auto;
+  }
+  #Testimonial section.wrapper div.top-portion div.middle div.details p {
+    width: 100%;
+    font-size: 20px;
+  }
+  #Testimonial section.wrapper div.bottom-portion {
+    flex-wrap: wrap;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.left {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.right {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #Home section.wrapper #spotlight {
+    padding: 29px 0px;
+    flex-wrap: wrap;
+  }
+  #Home section.wrapper #spotlight div.left {
+    width: 100%;
+  }
+  #Home section.wrapper #spotlight div.left div.top span.text-rotate {
+    margin-left: 42px;
+  }
+  #Home section.wrapper #spotlight div.left div.top h1 {
+    font-size: 41px;
+    width: 74%;
+    margin: 0 auto;
+  }
+  #Home section.wrapper #spotlight div.left div.top div.details p {
+    width: 78%;
+    margin-left: 10px;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+
+  #Home section.wrapper #spotlight div.left div.top div.buttons {
+    text-align: center;
+    width: 68%;
+    margin: 30px auto 0;
+  }
+  #Home section.wrapper #spotlight div.right {
+    display: none;
+  }
+  #Home section.wrapper #spotlight div.left div.bottom ul li {
+    width: 20%;
+    margin: 0 auto;
+  }
+  #Service section.wrapper section.content div.left div.top h1 {
+    width: 56%;
+    margin: 0 auto;
+  }
+  #Service section.wrapper section.content div.right ul li div.click {
+    width: 36%;
+  }
+  #Service
+    section.wrapper
+    section.content
+    div.left
+    div.bottom
+    div.service-seal {
+    width: 24%;
+    margin: 0 auto;
+  }
+  #Experience section.wrapper section.content div.left div.top h1 {
+    line-height: 1.4em;
+    width: 63%;
+  }
+  #Service section.wrapper section.content div.left div.top span.text-rotate {
+    margin-left: 70px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.left
+    div.top
+    span.text-rotate {
+    margin: 20px 0 6px 52px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 39%;
+  }
+  #Projects section.wrapper ul {
+    flex-wrap: wrap;
+  }
+  #Projects section.wrapper ul li {
+    width: 100%;
+    margin-bottom: 105px;
+  }
+  #Projects section.wrapper ul li:last-child {
+    margin-bottom: 0px;
+  }
+  section.wrapper ul li:first-child {
+    top: 0px;
+  }
+  #Projects section.wrapper ul li:last-child {
+    top: 0px;
+  }
+  #Projects section.wrapper ul li div.project_design {
+    width: 77%;
+    margin-top: 20px;
+  }
+  #Projects section.wrapper h1 {
+    width: 40%;
+    margin: 0 auto;
+  }
+  #Projects section.wrapper div.service-seal {
+    width: 24%;
+    margin: 0 auto;
+  }
 }
 @media all and (max-width: 480px) {
+  footer section.wrapper div.bottom {
+    flex-wrap: wrap-reverse;
+  }
+  footer section.wrapper div.bottom div.terms {
+    width: 60%;
+    margin: 0 a;
+    margin: 0 auto;
+  }
+
+  footer section.wrapper div.bottom div.copyright {
+    width: 60%;
+    margin: 14px auto 0;
+  }
+  footer section.wrapper div.bottom div.terms ul li a {
+    font-size: 13px;
+  }
+  footer section.wrapper div.bottom div.copyright p {
+    font-size: 13px;
+  }
+  footer section.wrapper div.top div.useful-links div.link1-container h5 {
+    font-size: 13px;
+  }
+  footer section.wrapper div.top div.description p {
+    font-size: 14px;
+  }
 }
 @media all and (max-width: 360px) {
 }
