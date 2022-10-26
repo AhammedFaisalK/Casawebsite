@@ -1107,6 +1107,31 @@ footer section.wrapper div.bottom div.terms ul li a {
   display: inline-block;
   font-weight: 600;
 }
+@media all and (max-width: 1440px) {
+  footer section.wrapper div.top div.useful-links {
+    width: 60%;
+  }
+
+  #Contact section.wrapper section.contact_details div.right {
+    width: 43%;
+    border-radius: 50%;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    width: 69%;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle span {
+    width: 85%;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle h6 {
+    width: 84%;
+  }
+  #Testimonial section.wrapper div.top-portion div.left h1 {
+    width: 90%;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li h4 {
+    font-size: 19px;
+  }
+}
 @media all and (max-width: 1380px) {
   #Contact section.wrapper section.contact_details div.left h1 {
     width: 74%;
@@ -1117,6 +1142,29 @@ footer section.wrapper div.bottom div.terms ul li a {
   #Testimonial section.wrapper div.top-portion div.left h1 {
     font-size: 60px;
     width: 96%;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li h4 {
+    font-size: 18px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company1 {
+    width: 52%;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 53%;
   }
 }
 @media all and (max-width: 1280px) {
@@ -1829,6 +1877,9 @@ footer section.wrapper div.bottom div.terms ul li a {
   #Projects section.wrapper div.service-seal {
     width: 24%;
     margin: 0 auto;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li h4 {
+    font-size: 16px;
   }
 }
 @media all and (max-width: 480px) {
