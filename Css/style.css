@@ -2053,11 +2053,42 @@ footer section.wrapper div.bottom div.terms ul li a {
     display: none;
   }
   #Home section.wrapper header div.hamburg-icon {
-    width: 11%;
+    width: 10%;
     margin: 0 0 0 157px;
     display: block;
   }
   #Testimonial section.wrapper div.top-portion div.middle {
     width: 100%;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    div.title
+    h2 {
+    font-size: 20px;
+  }
+
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 11%;
+  }
+  #Service section.wrapper section.content div.left div.top span.text-rotate {
+    margin-left: 11px;
+  }
+  #Testimonial section.wrapper div.top-portion div.left h1 {
+    font-size: 26px;
+  }
+  #Service section.wrapper section.content div.left div.top h1 {
+    width: 84%;
   }
 }
