@@ -116,6 +116,16 @@ body {
 header nav.middle ul {
   display: flex;
 }
+#Home section.wrapper header div.hamburg-icon {
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+#Home section.wrapper header div.hamburg-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 #Home section.wrapper header nav.middle ul li {
   margin-right: 20px;
 }
@@ -1647,6 +1657,17 @@ footer section.wrapper div.bottom div.terms ul li a {
   #Home section.wrapper #spotlight div.left div.top span.text-rotate {
     margin-left: -15px;
   }
+  #Home section.wrapper #spotlight div.right div.play {
+    left: 35%;
+  }
+  #Home section.wrapper #spotlight div.right div.Hero-bg {
+    width: 100%;
+  }
+  #Home section.wrapper #spotlight div.right div.Hero-bg img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
 }
 @media all and (max-width: 640px) {
   footer section.wrapper div.top {
@@ -1912,6 +1933,74 @@ footer section.wrapper div.bottom div.terms ul li a {
   #Testimonial section.wrapper div.top-portion div.left {
     width: 46%;
   }
+  #Home section.wrapper header div.right {
+    display: none;
+  }
+  #Home section.wrapper header div.hamburg-icon {
+    width: 9%;
+    margin: 0 0 0 157px;
+    display: block;
+  }
 }
 @media all and (max-width: 360px) {
+  footer section.wrapper div.top div.useful-links {
+    flex-wrap: wrap;
+  }
+  footer section.wrapper div.top div.useful-links div.link1-container {
+    margin-top: 55px;
+  }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    font-size: 26px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.right {
+    width: 50%;
+    margin: 27px auto;
+  }
+  #Testimonial section.wrapper div.top-portion div.right {
+    display: none;
+  }
+  #Home section.wrapper #spotlight div.right div.play {
+    display: none;
+  }
+  #Home section.wrapper #spotlight div.right div.Hero-bg {
+    display: none;
+  }
+  #Testimonial section.wrapper div.top-portion div.left h1 {
+    font-size: 30px;
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  #Home section.wrapper #spotlight div.left div.top div.buttons {
+    width: 94%;
+  }
+  #Home section.wrapper #spotlight div.left div.bottom ul li span {
+    font-size: 12px;
+  }
+  footer section.wrapper div.top div.useful-links div.link1-container {
+    width: 39%;
+    margin: 55px auto 0;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 16%;
+  }
+  #Projects section.wrapper h1 {
+    width: 58%;
+    margin: 0 auto;
+  }
+  #Home section.wrapper header div.right {
+    display: none;
+  }
+  #Home section.wrapper header div.hamburg-icon {
+    width: 11%;
+    margin: 0 0 0 157px;
+    display: block;
+  }
 }
