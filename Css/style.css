@@ -1836,6 +1836,82 @@ footer section.wrapper div.bottom div.terms ul li a {
   footer section.wrapper div.top div.description p {
     font-size: 14px;
   }
+  #Contact section.wrapper section.contact_details div.left h1 {
+    font-size: 29px;
+  }
+  #Contact section.wrapper section.contact_details div.left span.text-rotate {
+    font-size: 16px;
+    margin: 20px 0 6px 45px;
+  }
+  #Testimonial section.wrapper div.bottom-portion div.middle {
+    width: 98%;
+    margin: 0 auto;
+  }
+  #Home section.wrapper #spotlight div.left div.top div.buttons a.fill {
+    padding: 8px 20px;
+  }
+  #Home section.wrapper #spotlight div.left div.top div.buttons {
+    width: 91%;
+  }
+  #Home section.wrapper #spotlight div.left div.bottom ul li {
+    width: 19%;
+  }
+  #Home section.wrapper #spotlight div.left div.bottom ul li span {
+    font-size: 13px;
+  }
+  #Service section.wrapper section.content div.left div.top h1 {
+    width: 60%;
+  }
+  #Service section.wrapper section.content div.left div.top span.text-rotate {
+    margin-left: 46px;
+  }
+  #Projects section.wrapper div.service-seal span {
+    width: 100%;
+  }
+  #Service section.wrapper section.content div.right ul li div.item_title h2 {
+    font-size: 25px;
+  }
+  #Experience section.wrapper section.content div.left div.top h1 {
+    font-size: 40px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.left
+    div.top
+    span.text-rotate {
+    margin: 20px 0 6px 31px;
+  }
+  #Experience section.wrapper section.content div.left div.bottom ul li {
+    width: 34%;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    div.title
+    h2 {
+    font-size: 24px;
+  }
+  #Experience
+    section.wrapper
+    section.content
+    div.right
+    div.bottom
+    ul
+    li
+    span.company {
+    width: 21%;
+  }
+  #Testimonial section.wrapper div.top-portion div.middle div.details p {
+    font-size: 15px;
+  }
+  #Testimonial section.wrapper div.top-portion div.left {
+    width: 46%;
+  }
 }
 @media all and (max-width: 360px) {
 }
