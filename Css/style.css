@@ -1992,6 +1992,9 @@ footer section.wrapper div.bottom div.terms ul li a {
     margin: 0 0 0 157px;
     display: block;
   }
+  #Testimonial section.wrapper div.top-portion div.middle {
+    width: 90%;
+  }
 }
 @media all and (max-width: 360px) {
   footer section.wrapper div.top div.useful-links {
@@ -2053,5 +2056,8 @@ footer section.wrapper div.bottom div.terms ul li a {
     width: 11%;
     margin: 0 0 0 157px;
     display: block;
+  }
+  #Testimonial section.wrapper div.top-portion div.middle {
+    width: 100%;
   }
 }
